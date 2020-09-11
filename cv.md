@@ -1,5 +1,5 @@
 #  Anastasiia Balzamova
-## CONTACTS:
+### CONTACTS:
 *E-mail*: balzam0401@gmail.com  
 *Github*: @Balzamova
 ### SUMMARY
