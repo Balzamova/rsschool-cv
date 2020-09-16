@@ -4,35 +4,48 @@ html {
     background-color: rgb(205, 240, 247);
 }
 .mainMenu {
-    height: 24px;
-    weight: 200px;
+    display: flex;
+    height: 38px;
+    width: 400px;
     position: fixed;
     top: 10px;
     right: 20px;
-    padding-right: 10px;
-    text-align: right;
     text-shadow: 3px 3px 3px grey;
+}
+
+.mainMenu a {
+    display: block;
+    width: 350px;
+    text-align: center;
+    line-height: 35px;
 }
 
 .mainMenu :hover {
 font-weight: bold;
+background-color: honeydew;
+border-radius: 20px;
+border: 2px solid rgb(199, 232, 252);
+box-shadow: 0px 5px 5px 5px rgb(252, 252, 252);
+
 }
 
 img {
+    margin: -40px 0 0 20px;
     width: 180px;
     float: left;
 }
 
 .name {
-    margin: 40px 100px 10px 200px;
+margin: 60px 0px 0px 230px;
 color: grey;
-font-size: 32px;
+width: 380px;
+font-size: 30px;
 text-shadow: 1px 1px 1px black;
 font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .mainClass {
-margin: 110px 20px 100px 100px;
+margin: 120px 20px 100px 100px;
 }
 
 h3 {
