@@ -1,1 +1,1 @@
-[https://Balzamova.github.io/rsschool-cv/cv](https://balzamova.github.io/rsschool-cv/)
+[https://Balzamova.github.io/rsschool-cv](https://balzamova.github.io/rsschool-cv/)
