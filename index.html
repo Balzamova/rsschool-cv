@@ -1,96 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head id="head">
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+
+    <link rel="shortcut icon" href="./assets/resume.png">
     <link rel="stylesheet" href="style.css" />
-    <title>RS School CV - Anastasiia Balzamova</title>
-  </head>
 
-  <body>
-      <div class='container'>
-<nav class='mainMenu'>
-    <div><a href="#iAm">I am</a></div>
-    <div><a href="#summary">Summary</a></div>
-    <div><a href="#education">Education</a></div>
-    <div><a href="#contacts">Contacts</a></div>
-    
-</nav>
-<header id='iAm' class='header'>
-    <div>
-        <img alt='My photo' src='photo.jpg'>
-        <div class='name'>I'm Anastasiia Balzamova </div>
-        <div class='name'>Junior Frontend Developer</div>
+    <title>CV - Anastasiia Balzamova</title>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <header class="header">
+            <div class="container">
+                <nav class="header__menu">
+                    <ul class="header__list">
+                        <li class="header__item">
+                            <a href="#me">About</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#skills">Skills</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#education">Education</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#contacts">Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main class="main">
+            <div class="container">
+
+                <section class="me" id="me">
+                    <img class="me__photo" alt="My_photo" src="./assets/IMG-7773.jpg">
+                    <div class="me__info">
+                        <h1 class="me__name"> Anastasiia Balzamova </h1>
+                        <h3 class="me__who"> Junior Frontend Developer </h3>
+                        <p class="me__text">
+                            Meeting with coding in spring 2020’s has changed my opinion about IT world.
+                            In february of 2021 I started to study at <b> The Rolling Scopes School</b>.
+                            I was worked in tourism for 10 years and now I want to change my working profile.
+                            Coding gives me new way to change my life and move it at another direction.
+                        </p>
+                    </div>
+
+                </section>
+
+                <section class="skills" id="skills">
+                    <p class="skills__name section-name">Skills</p>
+                    <ul class="skills__list text">
+                        <li class="skills__item">HTML</li>
+                        <li class="skills__item">CSS</li>
+                        <li class="skills__item">Java Script</li>
+                    </ul>
+                </section>
+
+                <section class="portfolio" id="portfolio">
+                    <p class="portfolio__name section-name">Portfolio</p>
+                    <p class="portfolio__info text">
+                        To check my development project follow
+                        <a href="https://balzamova.github.io/webdev/webdev-first/" class="portfolio__link"> this
+                            link</a>
+                    </p>
+                </section>
+
+                <section class="education" id="education">
+                    <p class="education__name section-name">EDUCATION</p>
+
+                    <ul class="education__list">
+                        <li class="education__link">
+                            <p class="education__years"> February - August 2021 </p>
+                            <p class="education__univer text"> The Rolling Scope School </p>
+                            <p class="education_department text"> My achievements is available by nickname
+                                @Balzamova
+                            </p>
+                        </li>
+                        <li class="education__link">
+                            <p class="education__years"> 2007-2012 </p>
+                            <p class="education__univer text"> Kharkiv National Karasin’s University</p>
+                            <p class="education_department text"> Department of Physics </p>
+                            <p class="education__level text"> Qualification: Master </p>
+                        </li>
+                        <li class="education__link">
+                            <p class="education__years"> 2011-2012 </p>
+                            <p class="education__univer text"> Kharkiv Auto-Road University </p>
+                            <p class="education_department text"> Department of Economics of company </p>
+                            <p class="education__level text"> Qualification: Bachelor </p>
+                        </li>
+                    </ul>
+
+                    <p class="education__name addit section-name "> Codewars account </p>
+                    <p class="text">
+                        Codewars profile with my achievements is available by nickname
+                        <a href="https://www.codewars.com/users/Balzamova"> Balzamova </a>
+                    </p>
+
+                    <p class="education__name addit section-name "> Languages </p>
+                    <div class="languages__block">
+                        <div class="languages__info">
+                            <p class="languages__rus"> Russian </p>
+                            <p class="languages__level"> Native </p>
+                        </div>
+                        <div class="languages__info">
+                            <p class="languages__eng"> English </p>
+                            <p class="languages__level"> Pre-Intermediate (<i>but I keep learn English to this day</i>) </p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="contacts" id="contacts">
+                    <p class="contacts__name section-name">Contacts</p>
+                    <ul class="contacts__list">
+                        <li class="contacts__link">
+                            <a class="text" href="mailto:balzam0401@gmail.com">
+                                <img src="./assets/mail.png" alt="" class="contacts__mail-img">
+                            </a>
+                        </li>
+                        <li class="contacts__link">
+                            <a class="text" href="https://github.com/Balzamova">
+                                <img src="./assets/github.png" alt="" class="contacts__github-img">
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </main>
+
+        <footer class="footer">
+
+            <p class="footer__year text"> 2021 </p>
+            <p class="footer__name text"> Directed by #Balzamova </p>
+
+
+
+        </footer>
+
     </div>
-</header>
+</body>
 
-<main class='mainClass'>
-<div id='summary' class='heading'>
-    <h3>SUMMARY</h3>
-    <p class='style-text'> Meeting with coding in spring 2020’s has changed my opinion about IT world. <br>
-    In september of 2020 I started my learning in <b>The Rolling Scope School</b>. <br>
-    Learning coding gives me a motivation to change my life and move in another direction. <br>
-    I was worked in the tourism 10 years and now I think to change the profile of my work. </p>
-
-<h5> Experience </h5>
-    <p class='style-text'>
-        <b> 2010 - 2020 </b> I was worked in tourism:<br>
-        starts as <i> a transfermen </i> and <i>an excurcion guide </i> in Turkey and Thailand, <br>
-        continuing as <i> a visa’s specialist </i>, <br>
-        after <i> booking specialist </i> <br>
-        and stoped as <i>a leader of booking department </i> in tour operating company
-</p>
-<h5>Skills</h5>
-<ul class='style-text'>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>JavaScript</li>
-</ul>
-
-</div>
-<div id='education' class='heading'>
-    <h3>EDUCATION</h3>
-<p class='style-text'> 
-    <b> 2007-2012 </b> Kharkiv National Karasin’s University <br>
-Department of Physics <br>
-Qualification: Master <br> </p>
-<p class='style-text'> 
-    <b> 2011-2012 </b> Kharkiv Auto-Road University <br>
-Department of Economics of company <br>
-Qualification: Bachelor </p>
-
-<h5> The Rolling Scope School </h5>
-<p class='style-text'>
-    My achievements is available by nickname <i>Balzamova </i>
-</p>
-
-<h5>Codewars account</h5>
-<p class='style-text'>
-    Codewars profile with my achievements is available by the <a href='https://www.codewars.com/users/Balzamova'> link </a>
-</p>
-    
-<h5>Languages</h5>
-<p class='style-text'> 
-    <b> Russian </b> Native <br>
-    <b> English </b> Pre-Intermediate (<i>but I keep learn English to this day</i>)
-    
-</p>
-</div>
-
-<div id='contacts' class='heading'>
-    <h3>CONTACTS</h3>
-    <p class='style-text'> <b>E-mail </b><i> balzam0401@gmail.com </i> </p>
-<p class='style-text'> <b>Github</b><a href='https://github.com/Balzamova'><i> Balzamova</i> </a></p>
-    
-</div>
-
-
-</main>
-
-<footer class='footer'>
-Directed by #Balzamova
-</footer>
-      </div>
-  
-  </body>
 </html>
