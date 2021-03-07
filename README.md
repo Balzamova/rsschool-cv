@@ -1,6 +1,6 @@
 
 ### В репозитории выполнено задание из курса по обучению в Rolling Scopes School.
-[Cсылка](https://rolling-scopes-school.github.io/stage0/#/stage0/tasks/html-css) на задание.
+[Cсылка](https://rolling-scopes-school.github.io/stage0/#/stage0/tasks/html-css) на задание, deadline 08.03.2021 23:59 UTC
 
 ### [Ссылка на деплой](https://balzamova.github.io/rsschool-cv/)
 ### Скриншот страницы CV
